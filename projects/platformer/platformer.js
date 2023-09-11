@@ -16,7 +16,7 @@ $(function () {
       setInterval(main, 1000 / frameRate);
     }
     //create walls
-    createPlatform(-50, -50, canvas.width + 100, 50); //top
+    createPlatform(500,300,200,20); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
