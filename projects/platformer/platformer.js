@@ -17,7 +17,7 @@ $(function () {
     }
     //create walls
     createPlatform(350,250,); //top
-    createPlatform(-50,100, 200); //right
+    createPlatform(-500,100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
 
