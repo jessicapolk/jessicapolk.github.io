@@ -44,7 +44,9 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-
+       createPlatform(300,200,400)
+       createPlatform(350,235,450)
+       createPlatform(465,550,250)
 
     
     // TODO 2
@@ -57,7 +59,7 @@ $(function () {
 "steve" 
 "grace" 
 "kennedi" 
- 
+ createCollectable(database,x,y)
                                                                                                                                          
 
 
