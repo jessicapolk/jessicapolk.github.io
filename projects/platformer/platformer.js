@@ -59,7 +59,9 @@ $(function () {
 "steve" 
 "grace" 
 "kennedi" 
- createCollectable(database,x,y)
+ createCollectable(max,x,y)
+ createCollectable(steve,x,y,0,0)
+ createCollectable(grace,x,y)
                                                                                                                                          
 
 
