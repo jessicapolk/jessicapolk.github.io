@@ -63,6 +63,7 @@
 			
 			// TODO 2 - Variable declarations 
                   var PositionX = 2;
+
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -73,10 +74,13 @@
 				moveBoxTo(borderWidth)
 				 var positionX = 0;
 				 positionX = 0 + 10
+				 moveBoxTo(positionX)
 				 positionX = 10 + 10;
-				 positionX = 20 + 20
-				 positionX
-				
+				 moveBoxTo(positionX)
+				 positionX = 20 + 20;
+				 moveBoxTo(positionX)
+				 positionX = 30 + 10;
+				 moveBoxTo(positionX);
 
 			};
 
@@ -92,8 +96,13 @@
 				positionX = 10+10;
 				moveBoxTo(positionX)
 				positionX = 0;
-				positionX = 
-
+				positionX = 0 + 10;
+				moveBoxTo(positionX)
+				positionX = 10 + 10;
+				moveBoxTo(positionX)
+				function handleBoxClick() {
+                positionX = 0;
+                 changeBoxText(1)
 
 
 			};
